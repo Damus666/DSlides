@@ -1,0 +1,45 @@
+= TestPresentation,1920,1080,white =
+< rect
+$ center 912, 569
+$ size 600,200
+$ width 0
+$ roundness 50
+$ outline 4, black
+$ color (150, 150, 150)
+>
+< text
+|This Is My Text\nThis Is New Line|
+$ color black
+$ font Segoe UI,50
+$ center 932, 566
+$ align left
+>
+< circle
+$ position 676, 574
+$ radius 50
+$ width 0
+$ outline 2, black
+$ color white
+>
+= (100, 100, 100) =
+< text
+|Text Content|
+$ color black
+$ font Segoe UI,80
+$ center 917, 187
+$ align middle
+>
+< image
+|placeholder.jpg|
+$ center 949, 557
+$ size 500,500
+>
+= black =
+< text
+|SECRET TEXT|
+$ color (20, 20, 20)
+$ font Segoe UI,50
+$ center 960, 540
+$ align middle
+>
+==
